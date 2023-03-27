@@ -1,0 +1,52 @@
+.containerInfo__title{
+    font-family:'Faster One', cursive;
+    color: var(--title-color);
+    text-align: center;
+    font-weight: 400;
+    font-size: 44px;
+    text-shadow: 0px 4px 6px #9F84C5;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+
+@media (min-width: 450px) {
+    .containerInfo__title{
+        font-size: 55px;
+    }
+}
+
+.containerInfo__Phrase{
+    font-family: 'Oxygen Mono', monospace;
+    color: var(--font-color);
+    background-color: rgba(255, 255, 255, 0.441);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.containerInfo__Author{
+    font-family: Fredoka;
+    color: var(--title-color);
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.33);
+    text-align: center;
+    padding: 10px 20px;
+    max-width: max-content;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+}
+

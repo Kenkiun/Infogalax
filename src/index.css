@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Fredoka:wght@300&family=Jacques+Francois+Shadow&family=JetBrains+Mono:wght@100;300;400;600&family=Oxygen+Mono&family=Poppins:wght@300;400;600&family=Space+Mono:wght@700&display=swap');
+
+:root{
+    --title-color: #FFFFFF;
+    --font-color: #25063F;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
