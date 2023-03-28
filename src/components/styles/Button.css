@@ -11,10 +11,16 @@
     cursor: pointer;
     margin: 0 auto;
     position: relative;
-    z-index: 4;
+    z-index: 4;    
 }
 
 .icon{
     color: rgba(127, 255, 212, 0.838);
+    transition: color 200ms ease;
+
+}
+
+.icon:hover{
+    color: rgb(98, 229, 249);
 }
 
